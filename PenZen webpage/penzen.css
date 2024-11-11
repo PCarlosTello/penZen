@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1DA1F2;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.page-title {
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1DA1F2;
+}
+
+/* Hero Section with Background Image */
+.hero {
+    background-image: url('PenZenuwu.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Para que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Color blanco para que contraste con el fondo */
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #ddd;
+}
+
+.hero .btn {
+    background-color: #1DA1F2;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #0c8ad6;
+}
+
+/* About Section */
+.about, .spaces, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about p, .contact p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Spaces Section */
+.spaces {
+    background-color: #f9f9f9;
+}
+
+.space-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.space-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Contact Section */
+.contact .btn {
+    background-color: #1DA1F2;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #0c8ad6;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .social-media ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .social-media ul li a:hover {
+    color: #1DA1F2;
+}
